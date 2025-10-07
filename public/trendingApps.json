@@ -1,0 +1,218 @@
+[
+    {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+    "title": "Notion",
+    "companyName": "Notion Labs Inc.",
+    "id": 1,
+    "description": "An all-in-one workspace for notes, tasks, and projects.",
+    "size": 128,
+    "reviews": 24500,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 13600 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 2,
+    "description": "Messaging app for teams to collaborate efficiently.",
+    "size": 180,
+    "reviews": 32000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 16700 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+    "title": "Figma",
+    "companyName": "Figma Inc.",
+    "id": 3,
+    "description": "Design and prototyping tool for teams.",
+    "size": 150,
+    "reviews": 18900,
+    "ratingAvg": 4.8,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 5100 },
+      { "name": "5 star", "count": 11300 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 4,
+    "description": "Music streaming app with millions of tracks and podcasts.",
+    "size": 95,
+    "reviews": 105000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 19000 },
+      { "name": "4 star", "count": 31000 },
+      { "name": "5 star", "count": 45000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Trello-logo-blue.svg",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 5,
+    "description": "Organize your work and projects visually with boards.",
+    "size": 75,
+    "reviews": 16000,
+    "ratingAvg": 4.4,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 5900 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Canva_Logo.svg",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 6,
+    "description": "Create stunning designs for social media, business, and more.",
+    "size": 110,
+    "reviews": 85000,
+    "ratingAvg": 4.9,
+    "downloads": 80000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 64500 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Zoom_Communications_Logo.svg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 7,
+    "description": "Video conferencing and communication app.",
+    "size": 200,
+    "reviews": 75000,
+    "ratingAvg": 4.3,
+    "downloads": 150000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 22000 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Duolingo_logo.svg",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 8,
+    "description": "Learn languages for free through fun lessons and quizzes.",
+    "size": 90,
+    "reviews": 60000,
+    "ratingAvg": 4.8,
+    "downloads": 120000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 33500 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Grammarly_logo.svg",
+    "title": "Grammarly",
+    "companyName": "Grammarly Inc.",
+    "id": 9,
+    "description": "AI-powered writing assistant to improve your grammar and style.",
+    "size": 85,
+    "reviews": 42000,
+    "ratingAvg": 4.7,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 24000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Cloud storage and file sharing service from Google.",
+    "size": 130,
+    "reviews": 150000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 65000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 11,
+    "description": "Share your moments through photos and videos.",
+    "size": 160,
+    "reviews": 240000,
+    "ratingAvg": 4.4,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 22000 },
+      { "name": "2 star", "count": 26000 },
+      { "name": "3 star", "count": 36000 },
+      { "name": "4 star", "count": 42000 },
+      { "name": "5 star", "count": 114000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "id": 12,
+    "description": "Connect with friends, share stories, and join communities.",
+    "size": 210,
+    "reviews": 400000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 65000 },
+      { "name": "2 star", "count": 52000 },
+      { "name": "3 star", "count": 58000 },
+      { "name": "4 star", "count": 72000 },
+      { "name": "5 star", "count": 153000 }
+    ]
+  }
+]
