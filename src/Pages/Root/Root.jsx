@@ -8,8 +8,6 @@ const Root = () => {
     return (
         <div className='bg-[#f5f5f5]'>
             <Navbar></Navbar>
-            <HeroSection></HeroSection>
-            <StatsSection></StatsSection>
             <Suspense fallback={<div>Loding content...</div>}>
                 <Outlet></Outlet>
             </Suspense>
