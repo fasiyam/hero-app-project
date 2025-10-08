@@ -28,6 +28,7 @@ export const routes = createBrowserRouter(
         },
         {
             path: "/apps/:appId",
+            loader: () => fetch("/allApps.json"),
             Component: AppDetails
         }
       ],
