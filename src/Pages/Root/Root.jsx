@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Navbar from '../../Components/Navbar/Navbar';
-import { Outlet } from 'react-router';
 import HeroSection from "../../Components/HeroSection/HeroSection"
 import StatsSection from '../../Components/StatsSection/StatsSection';
+import { Outlet } from 'react-router';
 
 const Root = () => {
     return (
@@ -10,7 +10,9 @@ const Root = () => {
             <Navbar></Navbar>
             <HeroSection></HeroSection>
             <StatsSection></StatsSection>
-            <Outlet></Outlet>
+            <Suspense fallback={<div>Loding content...</div>}>
+                <Outlet></Outlet>
+            </Suspense>
         </div>
     );
 };

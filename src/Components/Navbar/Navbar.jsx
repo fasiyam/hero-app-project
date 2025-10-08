@@ -44,7 +44,7 @@ const Navbar = () => {
         <Link to="/">
             <div className="flex items-center justify-center lg:gap-2.5 btn btn-ghost">
                 <img className="w-[40px] h-[40px]" src={logoImg} alt="" />
-                <a className="text-xl">AppHive</a>
+                <span className="text-xl">AppHive</span>
             </div>
         </Link>
       </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 <NavLink to="/apps">Apps</NavLink>
             </li>
             <li>
-                <NavLink to="installation">Installation</NavLink>
+                <NavLink to="/installation">Installation</NavLink>
             </li>
         </ul>
       </div>

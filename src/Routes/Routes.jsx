@@ -5,23 +5,26 @@ import Apps from '../Pages/Apps/Apps';
 import Installation from '../Pages/Installation/Installation';
 import Home from '../Pages/Home/Home';
 
-export const routes = createBrowserRouter([
+export const routes = createBrowserRouter(
+  [
     {
-        path: "/",
-        Component: Root,
-        children: [
-            {
-                index: true,
-                Component: Home
-            },
-            {
-                path: "/apps",
-                Component: Apps
-            },
-            {
-                path: "/installation",
-                Component: Installation
-            }
-        ]
-    }
-])
+      path: "/",
+      Component: Root,
+      children: [
+        {
+          index: true,
+          loader: () => fetch("/trendingApps.json"),
+          Component: Home,
+        },
+        {
+          path: "/apps",
+          Component: Apps,
+        },
+        {
+          path: "/installation",
+          Component: Installation,
+        },
+      ],
+    },
+  ]
+);
