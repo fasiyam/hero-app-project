@@ -1,6 +1,6 @@
 import { Download, Star } from "lucide-react";
 import React, { useState } from "react";
-import { useLoaderData, useParams, useSearchParams } from "react-router";
+import { useLoaderData, useParams } from "react-router";
 import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { addToLS, getStoredApps } from "../../utility/LocalStorage";
 import downloadImg from "../../assets/icon-downloads.png";

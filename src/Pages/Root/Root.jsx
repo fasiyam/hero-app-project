@@ -4,6 +4,7 @@ import HeroSection from "../../Components/HeroSection/HeroSection"
 import StatsSection from '../../Components/StatsSection/StatsSection';
 import { Outlet, useNavigation } from 'react-router';
 import LoadingScreen from '../../Components/LoadingScreen/LoadingScreen';
+import Footer from '../../Components/Footer/Footer';
 
 const Root = () => {
 
@@ -15,8 +16,8 @@ const Root = () => {
             <Navbar></Navbar>
             {
                 !isLoading ? <Outlet></Outlet> : <LoadingScreen></LoadingScreen>
-            } 
-
+            }
+            <Footer></Footer>
         </div>
     );
 };
