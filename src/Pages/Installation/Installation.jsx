@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router';
 import { getStoredApps, removeFromLS } from '../../utility/LocalStorage';
 import downloadImg from "../../assets/icon-downloads.png";
 import ratingImg from "../../assets/icon-ratings.png";
+import { toast, ToastContainer } from 'react-toastify';
 
 const Installation = () => {
 
@@ -18,10 +19,10 @@ const Installation = () => {
         
         const data = [...sortedData];
 
-        if(sortValue === 'low-high') {
-            data.sort((a,b) => parseInt(a.size) - parseInt(b.size))
-        } else if(sortValue === 'high-low') {
-            data.sort((a,b) => parseInt(b.size) - parseInt(a.size))
+        if(sortValue === 'Low-High') {
+            data.sort((a,b) => parseInt(a.downloads) - parseInt(b.downloads))
+        } else if(sortValue === 'High-Low') {
+            data.sort((a,b) => parseInt(b.downloads) - parseInt(a.downloads))
         }
         
         setSortedData(data)
@@ -29,6 +30,8 @@ const Installation = () => {
 
 
     const handleUninstall = id => {
+        const data = sortedData.filter(a => parseInt(a.id) === parseInt(id))
+        toast.success(`${data["0"].title} is uninstalled`)
         removeFromLS(id);
 
         const remainingApps = sortedData.filter(app => app.id !== id)
@@ -37,7 +40,7 @@ const Installation = () => {
     
     
     return (
-        <div className=' mx-10 h-[90dvh]'>
+        <div className='md:mx-10 mx-4 mb-10 min-h-[90dvh]'>
             <div className='text-center'>
                 <h1 className='text-5xl font-bold text-[#001931] mb-4 mt-10'>Your Installed Apps</h1>
                 <p className='text-xl text-[#627382] mb-10'>Explore All Trending Apps on the Market developed by us</p>
@@ -45,8 +48,8 @@ const Installation = () => {
                     <p>{installedApps.length} Apps Found</p>
                     <select onChange={handleSorting} defaultValue="Sort by size" name="" id="" >
                         <option value="Sort by size" disabled >Sort by size</option>
-                        <option value="low-high">low-high</option>
-                        <option value="high-low">high-low</option>
+                        <option value="Low-High">Low-High</option>
+                        <option value="High-Low">High-Low</option>
                     </select>
                 </div>
             </div>
@@ -79,6 +82,7 @@ const Installation = () => {
                 </div>)
                 }
             </div>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };

@@ -1,4 +1,3 @@
-import { Download, Star } from "lucide-react";
 import React, { useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
@@ -6,6 +5,7 @@ import { addToLS, getStoredApps } from "../../utility/LocalStorage";
 import downloadImg from "../../assets/icon-downloads.png";
 import starImg from "../../assets/icon-ratings.png";
 import reviewImg from "../../assets/icon-review.png";
+import { toast, ToastContainer } from "react-toastify";
 
 const AppDetails = () => {
     const { appId } = useParams();
@@ -34,6 +34,7 @@ const AppDetails = () => {
     const [disabled, setDisabled] = useState(isInstalled)
 
     const handleInstallBtn = (id) => {
+        toast.success(`${filteredApp["0"].title} successfully installed`)
         addToLS(id)
 
         setDisabled(true)
@@ -118,7 +119,7 @@ const AppDetails = () => {
 
         <p className="text-2xl font-semibold text-[#001931] mb-6">Description</p>
         <p className="text-xl text-[#627382]">{filteredApp["0"].description}</p>
-      
+        <ToastContainer></ToastContainer>
     </div>
   );
 };
