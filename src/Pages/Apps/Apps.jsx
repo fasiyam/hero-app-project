@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router";
 import AppCard from "../../Components/AppCard/AppCard";
 import { Search } from 'lucide-react';
 
 const Apps = () => {
-  const allAppsData = useLoaderData();
+    const [search, setSearch] = useState(''); 
+    const allAppsData = useLoaderData();
+
+    const matchApps = (apps, search) => {
+        if(search.trim().toLowerCase() === ''){
+            return true
+        }
+
+        return apps.title.toLowerCase().includes(search.trim().toLowerCase());
+    }
+
+    const matchedApps = allAppsData.filter(app => matchApps(app, search))
   
 
   return (
@@ -20,6 +31,7 @@ const Apps = () => {
           <div className="flex items-center border px-4 border-gray-300 rounded-lg shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:border-indigo-500 transition-all duration-200 bg-white">
             <Search />
             <input
+              onChange={(e) => setSearch(e.target.value)}
               type="search"
               placeholder="Search apps..."
               className="w-full py-2.5 pl-2 pr-4 text-gray-700 bg-transparent focus:outline-none placeholder-gray-500"
@@ -29,9 +41,13 @@ const Apps = () => {
       </div>
 
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-6 md:gap-y-8 gap-x-4'>
-        {allAppsData.map((app) => (
-          <AppCard key={app.id} app={app}></AppCard>
-        ))}
+        {
+            matchedApps.length === 0 && search.trim() !== 0 ? (
+                <h1>No match found</h1>
+            ) : (
+                matchedApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
+            )
+        }
       </div>
     </div>
   );

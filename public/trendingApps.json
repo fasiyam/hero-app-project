@@ -4,17 +4,32 @@
     "title": "Notion",
     "companyName": "Notion Labs Inc.",
     "id": 1,
-    "description": "An all-in-one workspace for notes, tasks, and projects.",
+    "description": "Notion is your ultimate all-in-one workspace, seamlessly combining notes, tasks, and project management in one flexible app. Build custom dashboards, powerful wikis, and organized databases. It's the versatile tool designed to help you write, plan, and collaborate effectively, simplifying your digital life and boosting team productivity.",
     "size": 128,
     "reviews": 24500,
     "ratingAvg": 4.7,
     "downloads": 5000000,
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 2400 },
-      { "name": "4 star", "count": 7200 },
-      { "name": "5 star", "count": 13600 }
+      {
+        "name": "1 star",
+        "count": 500
+      },
+      {
+        "name": "2 star",
+        "count": 800
+      },
+      {
+        "name": "3 star",
+        "count": 2400
+      },
+      {
+        "name": "4 star",
+        "count": 7200
+      },
+      {
+        "name": "5 star",
+        "count": 13600
+      }
     ]
   },
   {
@@ -22,17 +37,32 @@
     "title": "Slack",
     "companyName": "Slack Technologies",
     "id": 2,
-    "description": "Messaging app for teams to collaborate efficiently.",
+    "description": "Transform your team's communication with Slack! This essential messaging app provides a centralized, searchable hub for all work conversations. Organize discussions into channels, share files instantly, and integrate your favorite work tools. It helps teams collaborate efficiently and move projects forward faster, replacing chaotic email chains with focused, real-time communication.",
     "size": 180,
     "reviews": 32000,
     "ratingAvg": 4.5,
     "downloads": 10000000,
     "ratings": [
-      { "name": "1 star", "count": 900 },
-      { "name": "2 star", "count": 1100 },
-      { "name": "3 star", "count": 4200 },
-      { "name": "4 star", "count": 9000 },
-      { "name": "5 star", "count": 16700 }
+      {
+        "name": "1 star",
+        "count": 900
+      },
+      {
+        "name": "2 star",
+        "count": 1100
+      },
+      {
+        "name": "3 star",
+        "count": 4200
+      },
+      {
+        "name": "4 star",
+        "count": 9000
+      },
+      {
+        "name": "5 star",
+        "count": 16700
+      }
     ]
   },
   {
@@ -40,17 +70,32 @@
     "title": "Figma",
     "companyName": "Figma Inc.",
     "id": 3,
-    "description": "Design and prototyping tool for teams.",
+    "description": "Figma is the leading collaborative interface design tool. It allows teams to create, prototype, and gather feedback all in one place. With powerful vector network tools and a seamless cloud environment, it supports everything from simple wireframing to complex design systems. Accelerate your design workflow and ship better products together.",
     "size": 150,
     "reviews": 18900,
     "ratingAvg": 4.8,
     "downloads": 4000000,
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1600 },
-      { "name": "4 star", "count": 5100 },
-      { "name": "5 star", "count": 11300 }
+      {
+        "name": "1 star",
+        "count": 300
+      },
+      {
+        "name": "2 star",
+        "count": 600
+      },
+      {
+        "name": "3 star",
+        "count": 1600
+      },
+      {
+        "name": "4 star",
+        "count": 5100
+      },
+      {
+        "name": "5 star",
+        "count": 11300
+      }
     ]
   },
   {
@@ -58,17 +103,32 @@
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 4,
-    "description": "Music streaming app with millions of tracks and podcasts.",
+    "description": "Discover a world of audio with Spotify, the premier music streaming app. Access millions of tracks, podcasts, and curated playlists for every mood and moment. Enjoy personalized recommendations, download music for offline listening, and stream high-quality audio across all your devices. It is your essential soundtrack to life.",
     "size": 95,
     "reviews": 105000,
     "ratingAvg": 4.6,
     "downloads": 100000000,
     "ratings": [
-      { "name": "1 star", "count": 3000 },
-      { "name": "2 star", "count": 7000 },
-      { "name": "3 star", "count": 19000 },
-      { "name": "4 star", "count": 31000 },
-      { "name": "5 star", "count": 45000 }
+      {
+        "name": "1 star",
+        "count": 3000
+      },
+      {
+        "name": "2 star",
+        "count": 7000
+      },
+      {
+        "name": "3 star",
+        "count": 19000
+      },
+      {
+        "name": "4 star",
+        "count": 31000
+      },
+      {
+        "name": "5 star",
+        "count": 45000
+      }
     ]
   },
   {
@@ -76,17 +136,32 @@
     "title": "Trello",
     "companyName": "Atlassian",
     "id": 5,
-    "description": "Organize your work and projects visually with boards.",
+    "description": "Organize your work and life visually with Trello, the flexible project management tool. Using boards, lists, and cards, you can clearly map out projects, track progress, and assign tasks to team members. It’s perfect for everything from agile workflow to personal to-do lists. Trello makes collaboration simple and intuitive.",
     "size": 75,
     "reviews": 16000,
     "ratingAvg": 4.4,
     "downloads": 3000000,
     "ratings": [
-      { "name": "1 star", "count": 700 },
-      { "name": "2 star", "count": 1000 },
-      { "name": "3 star", "count": 3200 },
-      { "name": "4 star", "count": 5200 },
-      { "name": "5 star", "count": 5900 }
+      {
+        "name": "1 star",
+        "count": 700
+      },
+      {
+        "name": "2 star",
+        "count": 1000
+      },
+      {
+        "name": "3 star",
+        "count": 3200
+      },
+      {
+        "name": "4 star",
+        "count": 5200
+      },
+      {
+        "name": "5 star",
+        "count": 5900
+      }
     ]
   },
   {
@@ -94,17 +169,32 @@
     "title": "Canva",
     "companyName": "Canva Pty Ltd",
     "id": 6,
-    "description": "Create stunning designs for social media, business, and more.",
+    "description": "Unleash your creativity with Canva, the intuitive online design and video editing platform. Create stunning visuals for social media, presentations, and posters using thousands of professional templates. Drag-and-drop tools make professional design accessible to everyone. Canva simplifies the entire creative process, making it fast, fun, and highly effective for any project.",
     "size": 110,
     "reviews": 85000,
     "ratingAvg": 4.9,
     "downloads": 80000000,
     "ratings": [
-      { "name": "1 star", "count": 1500 },
-      { "name": "2 star", "count": 2000 },
-      { "name": "3 star", "count": 5000 },
-      { "name": "4 star", "count": 12000 },
-      { "name": "5 star", "count": 64500 }
+      {
+        "name": "1 star",
+        "count": 1500
+      },
+      {
+        "name": "2 star",
+        "count": 2000
+      },
+      {
+        "name": "3 star",
+        "count": 5000
+      },
+      {
+        "name": "4 star",
+        "count": 12000
+      },
+      {
+        "name": "5 star",
+        "count": 64500
+      }
     ]
   },
   {
@@ -112,17 +202,32 @@
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 7,
-    "description": "Video conferencing and communication app.",
+    "description": "Connect face-to-face with anyone, anywhere using Zoom, the market-leading video conferencing and communication app. Host and join high-quality video meetings, webinars, and virtual events with reliable performance. Features include screen sharing, chat, and recording. Zoom ensures professional-grade virtual communication, keeping teams and people connected across all devices.",
     "size": 200,
     "reviews": 75000,
     "ratingAvg": 4.3,
     "downloads": 150000000,
     "ratings": [
-      { "name": "1 star", "count": 6000 },
-      { "name": "2 star", "count": 9000 },
-      { "name": "3 star", "count": 18000 },
-      { "name": "4 star", "count": 22000 },
-      { "name": "5 star", "count": 20000 }
+      {
+        "name": "1 star",
+        "count": 6000
+      },
+      {
+        "name": "2 star",
+        "count": 9000
+      },
+      {
+        "name": "3 star",
+        "count": 18000
+      },
+      {
+        "name": "4 star",
+        "count": 22000
+      },
+      {
+        "name": "5 star",
+        "count": 20000
+      }
     ]
   },
   {
@@ -130,17 +235,32 @@
     "title": "Duolingo",
     "companyName": "Duolingo Inc.",
     "id": 8,
-    "description": "Learn languages for free through fun lessons and quizzes.",
+    "description": "Make language learning fun and free with Duolingo. Through gamified lessons, engaging quizzes, and bite-sized exercises, you can master over 40 languages, including Spanish, French, German, and Japanese. Track your progress with a personalized learning path designed by language experts. Start your streak today and join millions learning a new language effortlessly.",
     "size": 90,
     "reviews": 60000,
     "ratingAvg": 4.8,
     "downloads": 120000000,
     "ratings": [
-      { "name": "1 star", "count": 2500 },
-      { "name": "2 star", "count": 3000 },
-      { "name": "3 star", "count": 6000 },
-      { "name": "4 star", "count": 15000 },
-      { "name": "5 star", "count": 33500 }
+      {
+        "name": "1 star",
+        "count": 2500
+      },
+      {
+        "name": "2 star",
+        "count": 3000
+      },
+      {
+        "name": "3 star",
+        "count": 6000
+      },
+      {
+        "name": "4 star",
+        "count": 15000
+      },
+      {
+        "name": "5 star",
+        "count": 33500
+      }
     ]
   },
   {
@@ -148,17 +268,32 @@
     "title": "Grammarly",
     "companyName": "Grammarly Inc.",
     "id": 9,
-    "description": "AI-powered writing assistant to improve your grammar and style.",
+    "description": "Grammarly is your essential AI-powered writing assistant. It helps you compose bold, clear, and mistake-free writing across all your apps and websites. Go beyond basic grammar checks to receive suggestions for clarity, engagement, and delivery. Whether you're writing an email, a document, or a post, Grammarly elevates your style and confidence.",
     "size": 85,
     "reviews": 42000,
     "ratingAvg": 4.7,
     "downloads": 25000000,
     "ratings": [
-      { "name": "1 star", "count": 800 },
-      { "name": "2 star", "count": 1200 },
-      { "name": "3 star", "count": 5000 },
-      { "name": "4 star", "count": 11000 },
-      { "name": "5 star", "count": 24000 }
+      {
+        "name": "1 star",
+        "count": 800
+      },
+      {
+        "name": "2 star",
+        "count": 1200
+      },
+      {
+        "name": "3 star",
+        "count": 5000
+      },
+      {
+        "name": "4 star",
+        "count": 11000
+      },
+      {
+        "name": "5 star",
+        "count": 24000
+      }
     ]
   },
   {
@@ -166,53 +301,32 @@
     "title": "Google Drive",
     "companyName": "Google LLC",
     "id": 10,
-    "description": "Cloud storage and file sharing service from Google.",
+    "description": "Securely store, access, and share your files anywhere with Google Drive, the powerful cloud storage and file sharing service. Easily manage documents, photos, and videos across all your devices. Collaborate in real-time on Google Docs, Sheets, and Slides. Google Drive offers robust security and instant access to keep all your most important information safe and perfectly organized.",
     "size": 130,
     "reviews": 150000,
     "ratingAvg": 4.6,
     "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 8000 },
-      { "name": "2 star", "count": 12000 },
-      { "name": "3 star", "count": 25000 },
-      { "name": "4 star", "count": 40000 },
-      { "name": "5 star", "count": 65000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
-    "title": "Instagram",
-    "companyName": "Meta Platforms Inc.",
-    "id": 11,
-    "description": "Share your moments through photos and videos.",
-    "size": 160,
-    "reviews": 240000,
-    "ratingAvg": 4.4,
-    "downloads": 2000000000,
-    "ratings": [
-      { "name": "1 star", "count": 22000 },
-      { "name": "2 star", "count": 26000 },
-      { "name": "3 star", "count": 36000 },
-      { "name": "4 star", "count": 42000 },
-      { "name": "5 star", "count": 114000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg",
-    "title": "Facebook",
-    "companyName": "Meta Platforms Inc.",
-    "id": 12,
-    "description": "Connect with friends, share stories, and join communities.",
-    "size": 210,
-    "reviews": 400000,
-    "ratingAvg": 4.2,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 65000 },
-      { "name": "2 star", "count": 52000 },
-      { "name": "3 star", "count": 58000 },
-      { "name": "4 star", "count": 72000 },
-      { "name": "5 star", "count": 153000 }
+      {
+        "name": "1 star",
+        "count": 8000
+      },
+      {
+        "name": "2 star",
+        "count": 12000
+      },
+      {
+        "name": "3 star",
+        "count": 25000
+      },
+      {
+        "name": "4 star",
+        "count": 40000
+      },
+      {
+        "name": "5 star",
+        "count": 65000
+      }
     ]
   }
 ]

@@ -4,17 +4,32 @@
     "title": "Notion",
     "companyName": "Notion Labs Inc.",
     "id": 1,
-    "description": "An all-in-one workspace for notes, tasks, and projects.",
+    "description": "Notion is your ultimate all-in-one workspace, seamlessly combining notes, tasks, and project management in one flexible app. Build custom dashboards, powerful wikis, and organized databases. It's the versatile tool designed to help you write, plan, and collaborate effectively, simplifying your digital life and boosting team productivity.",
     "size": 128,
     "reviews": 24500,
     "ratingAvg": 4.7,
     "downloads": 5000000,
     "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 2400 },
-      { "name": "4 star", "count": 7200 },
-      { "name": "5 star", "count": 13600 }
+      {
+        "name": "1 star",
+        "count": 500
+      },
+      {
+        "name": "2 star",
+        "count": 800
+      },
+      {
+        "name": "3 star",
+        "count": 2400
+      },
+      {
+        "name": "4 star",
+        "count": 7200
+      },
+      {
+        "name": "5 star",
+        "count": 13600
+      }
     ]
   },
   {
@@ -22,17 +37,32 @@
     "title": "Slack",
     "companyName": "Slack Technologies",
     "id": 2,
-    "description": "Messaging app for teams to collaborate efficiently.",
+    "description": "Transform your team's communication with Slack! This essential messaging app provides a centralized, searchable hub for all work conversations. Organize discussions into channels, share files instantly, and integrate your favorite work tools. It helps teams collaborate efficiently and move projects forward faster, replacing chaotic email chains with focused, real-time communication.",
     "size": 180,
     "reviews": 32000,
     "ratingAvg": 4.5,
     "downloads": 10000000,
     "ratings": [
-      { "name": "1 star", "count": 900 },
-      { "name": "2 star", "count": 1100 },
-      { "name": "3 star", "count": 4200 },
-      { "name": "4 star", "count": 9000 },
-      { "name": "5 star", "count": 16700 }
+      {
+        "name": "1 star",
+        "count": 900
+      },
+      {
+        "name": "2 star",
+        "count": 1100
+      },
+      {
+        "name": "3 star",
+        "count": 4200
+      },
+      {
+        "name": "4 star",
+        "count": 9000
+      },
+      {
+        "name": "5 star",
+        "count": 16700
+      }
     ]
   },
   {
@@ -40,17 +70,32 @@
     "title": "Figma",
     "companyName": "Figma Inc.",
     "id": 3,
-    "description": "Design and prototyping tool for teams.",
+    "description": "Figma is the leading collaborative interface design tool. It allows teams to create, prototype, and gather feedback all in one place. With powerful vector network tools and a seamless cloud environment, it supports everything from simple wireframing to complex design systems. Accelerate your design workflow and ship better products together.",
     "size": 150,
     "reviews": 18900,
     "ratingAvg": 4.8,
     "downloads": 4000000,
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 600 },
-      { "name": "3 star", "count": 1600 },
-      { "name": "4 star", "count": 5100 },
-      { "name": "5 star", "count": 11300 }
+      {
+        "name": "1 star",
+        "count": 300
+      },
+      {
+        "name": "2 star",
+        "count": 600
+      },
+      {
+        "name": "3 star",
+        "count": 1600
+      },
+      {
+        "name": "4 star",
+        "count": 5100
+      },
+      {
+        "name": "5 star",
+        "count": 11300
+      }
     ]
   },
   {
@@ -58,17 +103,32 @@
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 4,
-    "description": "Music streaming app with millions of tracks and podcasts.",
+    "description": "Discover a world of audio with Spotify, the premier music streaming app. Access millions of tracks, podcasts, and curated playlists for every mood and moment. Enjoy personalized recommendations, download music for offline listening, and stream high-quality audio across all your devices. It is your essential soundtrack to life.",
     "size": 95,
     "reviews": 105000,
     "ratingAvg": 4.6,
     "downloads": 100000000,
     "ratings": [
-      { "name": "1 star", "count": 3000 },
-      { "name": "2 star", "count": 7000 },
-      { "name": "3 star", "count": 19000 },
-      { "name": "4 star", "count": 31000 },
-      { "name": "5 star", "count": 45000 }
+      {
+        "name": "1 star",
+        "count": 3000
+      },
+      {
+        "name": "2 star",
+        "count": 7000
+      },
+      {
+        "name": "3 star",
+        "count": 19000
+      },
+      {
+        "name": "4 star",
+        "count": 31000
+      },
+      {
+        "name": "5 star",
+        "count": 45000
+      }
     ]
   },
   {
@@ -76,17 +136,32 @@
     "title": "Trello",
     "companyName": "Atlassian",
     "id": 5,
-    "description": "Organize your work and projects visually with boards.",
+    "description": "Organize your work and life visually with Trello, the flexible project management tool. Using boards, lists, and cards, you can clearly map out projects, track progress, and assign tasks to team members. It’s perfect for everything from agile workflow to personal to-do lists. Trello makes collaboration simple and intuitive.",
     "size": 75,
     "reviews": 16000,
     "ratingAvg": 4.4,
     "downloads": 3000000,
     "ratings": [
-      { "name": "1 star", "count": 700 },
-      { "name": "2 star", "count": 1000 },
-      { "name": "3 star", "count": 3200 },
-      { "name": "4 star", "count": 5200 },
-      { "name": "5 star", "count": 5900 }
+      {
+        "name": "1 star",
+        "count": 700
+      },
+      {
+        "name": "2 star",
+        "count": 1000
+      },
+      {
+        "name": "3 star",
+        "count": 3200
+      },
+      {
+        "name": "4 star",
+        "count": 5200
+      },
+      {
+        "name": "5 star",
+        "count": 5900
+      }
     ]
   },
   {
@@ -94,17 +169,32 @@
     "title": "Canva",
     "companyName": "Canva Pty Ltd",
     "id": 6,
-    "description": "Create stunning designs for social media, business, and more.",
+    "description": "Unleash your creativity with Canva, the intuitive online design and video editing platform. Create stunning visuals for social media, presentations, and posters using thousands of professional templates. Drag-and-drop tools make professional design accessible to everyone. Canva simplifies the entire creative process, making it fast, fun, and highly effective for any project.",
     "size": 110,
     "reviews": 85000,
     "ratingAvg": 4.9,
     "downloads": 80000000,
     "ratings": [
-      { "name": "1 star", "count": 1500 },
-      { "name": "2 star", "count": 2000 },
-      { "name": "3 star", "count": 5000 },
-      { "name": "4 star", "count": 12000 },
-      { "name": "5 star", "count": 64500 }
+      {
+        "name": "1 star",
+        "count": 1500
+      },
+      {
+        "name": "2 star",
+        "count": 2000
+      },
+      {
+        "name": "3 star",
+        "count": 5000
+      },
+      {
+        "name": "4 star",
+        "count": 12000
+      },
+      {
+        "name": "5 star",
+        "count": 64500
+      }
     ]
   },
   {
@@ -112,17 +202,32 @@
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 7,
-    "description": "Video conferencing and communication app.",
+    "description": "Connect face-to-face with anyone, anywhere using Zoom, the market-leading video conferencing and communication app. Host and join high-quality video meetings, webinars, and virtual events with reliable performance. Features include screen sharing, chat, and recording. Zoom ensures professional-grade virtual communication, keeping teams and people connected across all devices.",
     "size": 200,
     "reviews": 75000,
     "ratingAvg": 4.3,
     "downloads": 150000000,
     "ratings": [
-      { "name": "1 star", "count": 6000 },
-      { "name": "2 star", "count": 9000 },
-      { "name": "3 star", "count": 18000 },
-      { "name": "4 star", "count": 22000 },
-      { "name": "5 star", "count": 20000 }
+      {
+        "name": "1 star",
+        "count": 6000
+      },
+      {
+        "name": "2 star",
+        "count": 9000
+      },
+      {
+        "name": "3 star",
+        "count": 18000
+      },
+      {
+        "name": "4 star",
+        "count": 22000
+      },
+      {
+        "name": "5 star",
+        "count": 20000
+      }
     ]
   },
   {
@@ -130,17 +235,32 @@
     "title": "Duolingo",
     "companyName": "Duolingo Inc.",
     "id": 8,
-    "description": "Learn languages for free through fun lessons and quizzes.",
+    "description": "Make language learning fun and free with Duolingo. Through gamified lessons, engaging quizzes, and bite-sized exercises, you can master over 40 languages, including Spanish, French, German, and Japanese. Track your progress with a personalized learning path designed by language experts. Start your streak today and join millions learning a new language effortlessly.",
     "size": 90,
     "reviews": 60000,
     "ratingAvg": 4.8,
     "downloads": 120000000,
     "ratings": [
-      { "name": "1 star", "count": 2500 },
-      { "name": "2 star", "count": 3000 },
-      { "name": "3 star", "count": 6000 },
-      { "name": "4 star", "count": 15000 },
-      { "name": "5 star", "count": 33500 }
+      {
+        "name": "1 star",
+        "count": 2500
+      },
+      {
+        "name": "2 star",
+        "count": 3000
+      },
+      {
+        "name": "3 star",
+        "count": 6000
+      },
+      {
+        "name": "4 star",
+        "count": 15000
+      },
+      {
+        "name": "5 star",
+        "count": 33500
+      }
     ]
   },
   {
@@ -148,17 +268,32 @@
     "title": "Grammarly",
     "companyName": "Grammarly Inc.",
     "id": 9,
-    "description": "AI-powered writing assistant to improve your grammar and style.",
+    "description": "Grammarly is your essential AI-powered writing assistant. It helps you compose bold, clear, and mistake-free writing across all your apps and websites. Go beyond basic grammar checks to receive suggestions for clarity, engagement, and delivery. Whether you're writing an email, a document, or a post, Grammarly elevates your style and confidence.",
     "size": 85,
     "reviews": 42000,
     "ratingAvg": 4.7,
     "downloads": 25000000,
     "ratings": [
-      { "name": "1 star", "count": 800 },
-      { "name": "2 star", "count": 1200 },
-      { "name": "3 star", "count": 5000 },
-      { "name": "4 star", "count": 11000 },
-      { "name": "5 star", "count": 24000 }
+      {
+        "name": "1 star",
+        "count": 800
+      },
+      {
+        "name": "2 star",
+        "count": 1200
+      },
+      {
+        "name": "3 star",
+        "count": 5000
+      },
+      {
+        "name": "4 star",
+        "count": 11000
+      },
+      {
+        "name": "5 star",
+        "count": 24000
+      }
     ]
   },
   {
@@ -166,17 +301,32 @@
     "title": "Google Drive",
     "companyName": "Google LLC",
     "id": 10,
-    "description": "Cloud storage and file sharing service from Google.",
+    "description": "Securely store, access, and share your files anywhere with Google Drive, the powerful cloud storage and file sharing service. Easily manage documents, photos, and videos across all your devices. Collaborate in real-time on Google Docs, Sheets, and Slides. Google Drive offers robust security and instant access to keep all your most important information safe and perfectly organized.",
     "size": 130,
     "reviews": 150000,
     "ratingAvg": 4.6,
     "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 8000 },
-      { "name": "2 star", "count": 12000 },
-      { "name": "3 star", "count": 25000 },
-      { "name": "4 star", "count": 40000 },
-      { "name": "5 star", "count": 65000 }
+      {
+        "name": "1 star",
+        "count": 8000
+      },
+      {
+        "name": "2 star",
+        "count": 12000
+      },
+      {
+        "name": "3 star",
+        "count": 25000
+      },
+      {
+        "name": "4 star",
+        "count": 40000
+      },
+      {
+        "name": "5 star",
+        "count": 65000
+      }
     ]
   },
   {
@@ -184,17 +334,32 @@
     "title": "Instagram",
     "companyName": "Meta Platforms Inc.",
     "id": 11,
-    "description": "Share your moments through photos and videos.",
+    "description": "Share your life's moments and connect with a global community on Instagram. Express yourself through photos, short videos (Reels), and stories with creative filters and effects. Discover new trends, shop from your favorite brands, and follow your passions. Instagram is the visual platform for creativity, connection, and inspiration, keeping you entertained daily.",
     "size": 160,
     "reviews": 240000,
     "ratingAvg": 4.4,
     "downloads": 2000000000,
     "ratings": [
-      { "name": "1 star", "count": 22000 },
-      { "name": "2 star", "count": 26000 },
-      { "name": "3 star", "count": 36000 },
-      { "name": "4 star", "count": 42000 },
-      { "name": "5 star", "count": 114000 }
+      {
+        "name": "1 star",
+        "count": 22000
+      },
+      {
+        "name": "2 star",
+        "count": 26000
+      },
+      {
+        "name": "3 star",
+        "count": 36000
+      },
+      {
+        "name": "4 star",
+        "count": 42000
+      },
+      {
+        "name": "5 star",
+        "count": 114000
+      }
     ]
   },
   {
@@ -202,17 +367,32 @@
     "title": "Facebook",
     "companyName": "Meta Platforms Inc.",
     "id": 12,
-    "description": "Connect with friends, share stories, and join communities.",
+    "description": "Facebook is the world’s largest social network for connecting with friends, family, and communities. Share your stories, photos, and videos, and join groups centered on your interests. Stay up-to-date with news and events, and discover local businesses. Facebook is your ultimate platform for digital connection, communication, and building a meaningful online presence.",
     "size": 210,
     "reviews": 400000,
     "ratingAvg": 4.2,
     "downloads": 5000000000,
     "ratings": [
-      { "name": "1 star", "count": 65000 },
-      { "name": "2 star", "count": 52000 },
-      { "name": "3 star", "count": 58000 },
-      { "name": "4 star", "count": 72000 },
-      { "name": "5 star", "count": 153000 }
+      {
+        "name": "1 star",
+        "count": 65000
+      },
+      {
+        "name": "2 star",
+        "count": 52000
+      },
+      {
+        "name": "3 star",
+        "count": 58000
+      },
+      {
+        "name": "4 star",
+        "count": 72000
+      },
+      {
+        "name": "5 star",
+        "count": 153000
+      }
     ]
   },
   {
@@ -220,17 +400,32 @@
     "title": "TikTok",
     "companyName": "ByteDance Ltd.",
     "id": 13,
-    "description": "Create and share short entertaining videos.",
+    "description": "Dive into the world of endless short-form video entertainment with TikTok. Create and share fun, engaging clips using a massive library of sounds, effects, and filters. Discover personalized feeds of trending content across every topic imaginable. TikTok is a global phenomenon where creativity, culture, and comedy come to life and thrive.",
     "size": 220,
     "reviews": 320000,
     "ratingAvg": 4.5,
     "downloads": 3000000000,
     "ratings": [
-      { "name": "1 star", "count": 35000 },
-      { "name": "2 star", "count": 27000 },
-      { "name": "3 star", "count": 41000 },
-      { "name": "4 star", "count": 54000 },
-      { "name": "5 star", "count": 163000 }
+      {
+        "name": "1 star",
+        "count": 35000
+      },
+      {
+        "name": "2 star",
+        "count": 27000
+      },
+      {
+        "name": "3 star",
+        "count": 41000
+      },
+      {
+        "name": "4 star",
+        "count": 54000
+      },
+      {
+        "name": "5 star",
+        "count": 163000
+      }
     ]
   },
   {
@@ -238,17 +433,32 @@
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 14,
-    "description": "Watch, upload, and share videos across the world.",
+    "description": "Access an infinite library of video content with YouTube, the world's largest video-sharing platform. Watch, upload, and share everything from educational videos and music to vlogs and live streams. Subscribe to your favorite creators, explore trending topics, and discover new ideas. YouTube is the global stage for video, entertainment, and knowledge.",
     "size": 150,
     "reviews": 500000,
     "ratingAvg": 4.6,
     "downloads": 10000000000,
     "ratings": [
-      { "name": "1 star", "count": 40000 },
-      { "name": "2 star", "count": 45000 },
-      { "name": "3 star", "count": 60000 },
-      { "name": "4 star", "count": 90000 },
-      { "name": "5 star", "count": 265000 }
+      {
+        "name": "1 star",
+        "count": 40000
+      },
+      {
+        "name": "2 star",
+        "count": 45000
+      },
+      {
+        "name": "3 star",
+        "count": 60000
+      },
+      {
+        "name": "4 star",
+        "count": 90000
+      },
+      {
+        "name": "5 star",
+        "count": 265000
+      }
     ]
   },
   {
@@ -256,17 +466,32 @@
     "title": "X (Twitter)",
     "companyName": "X Corp.",
     "id": 15,
-    "description": "Join conversations and share ideas in real time.",
+    "description": "Join the global real-time conversation on X (Twitter). Share your thoughts, follow breaking news, and see what the world is talking about right now. Post short messages, photos, and videos to engage with people from all walks of life. X is the essential platform for instant updates, public discourse, and sharing new ideas.",
     "size": 140,
     "reviews": 210000,
     "ratingAvg": 4.0,
     "downloads": 1200000000,
     "ratings": [
-      { "name": "1 star", "count": 25000 },
-      { "name": "2 star", "count": 28000 },
-      { "name": "3 star", "count": 38000 },
-      { "name": "4 star", "count": 46000 },
-      { "name": "5 star", "count": 73000 }
+      {
+        "name": "1 star",
+        "count": 25000
+      },
+      {
+        "name": "2 star",
+        "count": 28000
+      },
+      {
+        "name": "3 star",
+        "count": 38000
+      },
+      {
+        "name": "4 star",
+        "count": 46000
+      },
+      {
+        "name": "5 star",
+        "count": 73000
+      }
     ]
   },
   {
@@ -274,35 +499,65 @@
     "title": "LinkedIn",
     "companyName": "Microsoft Corporation",
     "id": 16,
-    "description": "Professional networking and career development platform.",
+    "description": "Build your professional network and advance your career with LinkedIn. Connect with colleagues, discover new job opportunities, and gain industry insights. Share your expertise, publish articles, and enhance your professional brand. LinkedIn is the essential platform for career development, professional networking, and staying informed about your industry.",
     "size": 120,
     "reviews": 140000,
     "ratingAvg": 4.3,
     "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 18000 },
-      { "name": "2 star", "count": 21000 },
-      { "name": "3 star", "count": 34000 },
-      { "name": "4 star", "count": 41000 },
-      { "name": "5 star", "count": 26000 }
+      {
+        "name": "1 star",
+        "count": 18000
+      },
+      {
+        "name": "2 star",
+        "count": 21000
+      },
+      {
+        "name": "3 star",
+        "count": 34000
+      },
+      {
+        "name": "4 star",
+        "count": 41000
+      },
+      {
+        "name": "5 star",
+        "count": 26000
+      }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/archive/a/a9/20250504041146%21Amazon_logo.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/archive/a/a9/20250504041146%21Amazon_logo.svg",
     "title": "Amazon",
     "companyName": "Amazon.com, Inc.",
     "id": 17,
-    "description": "Shop millions of products with fast delivery.",
+    "description": "Shop millions of products from across the globe with Amazon, the world's largest online retailer. Enjoy fast, reliable delivery, easy returns, and personalized recommendations. Find everything from electronics and fashion to groceries and home goods in one trusted app. Amazon offers a seamless, secure, and convenient shopping experience for all your needs.",
     "size": 190,
     "reviews": 650000,
     "ratingAvg": 4.7,
     "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 35000 },
-      { "name": "2 star", "count": 37000 },
-      { "name": "3 star", "count": 56000 },
-      { "name": "4 star", "count": 99000 },
-      { "name": "5 star", "count": 423000 }
+      {
+        "name": "1 star",
+        "count": 35000
+      },
+      {
+        "name": "2 star",
+        "count": 37000
+      },
+      {
+        "name": "3 star",
+        "count": 56000
+      },
+      {
+        "name": "4 star",
+        "count": 99000
+      },
+      {
+        "name": "5 star",
+        "count": 423000
+      }
     ]
   },
   {
@@ -310,17 +565,32 @@
     "title": "Microsoft Office",
     "companyName": "Microsoft Corporation",
     "id": 18,
-    "description": "Create, edit, and manage Word, Excel, and PowerPoint files.",
+    "description": "Boost your productivity with Microsoft Office, the essential suite of apps including Word, Excel, and PowerPoint. Create, edit, and manage professional documents, spreadsheets, and presentations on the go. Sync your files across all devices with cloud storage. Microsoft Office provides the powerful tools you need for work, school, and every project.",
     "size": 300,
     "reviews": 200000,
     "ratingAvg": 4.5,
     "downloads": 500000000,
     "ratings": [
-      { "name": "1 star", "count": 12000 },
-      { "name": "2 star", "count": 14000 },
-      { "name": "3 star", "count": 26000 },
-      { "name": "4 star", "count": 42000 },
-      { "name": "5 star", "count": 106000 }
+      {
+        "name": "1 star",
+        "count": 12000
+      },
+      {
+        "name": "2 star",
+        "count": 14000
+      },
+      {
+        "name": "3 star",
+        "count": 26000
+      },
+      {
+        "name": "4 star",
+        "count": 42000
+      },
+      {
+        "name": "5 star",
+        "count": 106000
+      }
     ]
   },
   {
@@ -328,17 +598,32 @@
     "title": "Netflix",
     "companyName": "Netflix Inc.",
     "id": 19,
-    "description": "Watch your favorite TV shows and movies anywhere.",
+    "description": "Watch a vast library of TV shows, movies, documentaries, and stand-up specials with Netflix, the premier streaming service. Enjoy personalized recommendations, download content for offline viewing, and stream in stunning high definition. Discover critically acclaimed originals and fan favorites anytime, anywhere, on any device. Your world of entertainment awaits.",
     "size": 250,
     "reviews": 450000,
     "ratingAvg": 4.5,
     "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 25000 },
-      { "name": "2 star", "count": 32000 },
-      { "name": "3 star", "count": 52000 },
-      { "name": "4 star", "count": 82000 },
-      { "name": "5 star", "count": 259000 }
+      {
+        "name": "1 star",
+        "count": 25000
+      },
+      {
+        "name": "2 star",
+        "count": 32000
+      },
+      {
+        "name": "3 star",
+        "count": 52000
+      },
+      {
+        "name": "4 star",
+        "count": 82000
+      },
+      {
+        "name": "5 star",
+        "count": 259000
+      }
     ]
   },
   {
@@ -346,17 +631,32 @@
     "title": "Dropbox",
     "companyName": "Dropbox Inc.",
     "id": 20,
-    "description": "Store and sync your files across devices securely.",
+    "description": "Securely store, sync, and share your most important files across all your devices with Dropbox. Access your documents, photos, and videos from anywhere, collaborating seamlessly with colleagues and friends. Features include automatic backup and version history for complete peace of mind. Dropbox is your reliable, professional solution for cloud storage and file organization.",
     "size": 140,
     "reviews": 98000,
     "ratingAvg": 4.4,
     "downloads": 500000000,
     "ratings": [
-      { "name": "1 star", "count": 7000 },
-      { "name": "2 star", "count": 9000 },
-      { "name": "3 star", "count": 13000 },
-      { "name": "4 star", "count": 21000 },
-      { "name": "5 star", "count": 48000 }
+      {
+        "name": "1 star",
+        "count": 7000
+      },
+      {
+        "name": "2 star",
+        "count": 9000
+      },
+      {
+        "name": "3 star",
+        "count": 13000
+      },
+      {
+        "name": "4 star",
+        "count": 21000
+      },
+      {
+        "name": "5 star",
+        "count": 48000
+      }
     ]
   },
   {
@@ -364,17 +664,32 @@
     "title": "Airbnb",
     "companyName": "Airbnb Inc.",
     "id": 21,
-    "description": "Find unique homes and experiences around the world.",
+    "description": "Discover unique homes and incredible experiences around the world with Airbnb. Book unforgettable stays, from cozy cabins to city apartments, and explore local activities hosted by experts. Connect with hosts for personalized recommendations and enjoy flexible cancellation options. Airbnb opens up a world of authentic travel, making every journey feel like home.",
     "size": 175,
     "reviews": 210000,
     "ratingAvg": 4.7,
     "downloads": 500000000,
     "ratings": [
-      { "name": "1 star", "count": 12000 },
-      { "name": "2 star", "count": 14000 },
-      { "name": "3 star", "count": 24000 },
-      { "name": "4 star", "count": 45000 },
-      { "name": "5 star", "count": 115000 }
+      {
+        "name": "1 star",
+        "count": 12000
+      },
+      {
+        "name": "2 star",
+        "count": 14000
+      },
+      {
+        "name": "3 star",
+        "count": 24000
+      },
+      {
+        "name": "4 star",
+        "count": 45000
+      },
+      {
+        "name": "5 star",
+        "count": 115000
+      }
     ]
   },
   {
@@ -382,17 +697,32 @@
     "title": "Apple Music",
     "companyName": "Apple Inc.",
     "id": 22,
-    "description": "Stream over 90 million songs ad-free.",
+    "description": "Stream over 100 million songs ad-free and listen to your favorite albums and artists with Apple Music. Enjoy exclusive content, curated playlists, and live radio shows hosted by top artists. Download tracks for offline playback and explore music in stunning spatial audio. Apple Music offers a premium, high-fidelity experience for every music lover.",
     "size": 210,
     "reviews": 180000,
     "ratingAvg": 4.5,
     "downloads": 800000000,
     "ratings": [
-      { "name": "1 star", "count": 16000 },
-      { "name": "2 star", "count": 18000 },
-      { "name": "3 star", "count": 30000 },
-      { "name": "4 star", "count": 50000 },
-      { "name": "5 star", "count": 66000 }
+      {
+        "name": "1 star",
+        "count": 16000
+      },
+      {
+        "name": "2 star",
+        "count": 18000
+      },
+      {
+        "name": "3 star",
+        "count": 30000
+      },
+      {
+        "name": "4 star",
+        "count": 50000
+      },
+      {
+        "name": "5 star",
+        "count": 66000
+      }
     ]
   },
   {
@@ -400,17 +730,32 @@
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 23,
-    "description": "Chat, call, and hang out with communities and friends.",
+    "description": "Connect with communities and friends through voice, video, and text with Discord. Create a home for your community with custom servers organized by topic. It's the perfect place for everything from gaming and study groups to professional collaboration. Discord offers a private, flexible, and powerful way to chat, call, and hang out with your people.",
     "size": 160,
     "reviews": 130000,
     "ratingAvg": 4.8,
     "downloads": 400000000,
     "ratings": [
-      { "name": "1 star", "count": 5000 },
-      { "name": "2 star", "count": 8000 },
-      { "name": "3 star", "count": 11000 },
-      { "name": "4 star", "count": 24000 },
-      { "name": "5 star", "count": 82000 }
+      {
+        "name": "1 star",
+        "count": 5000
+      },
+      {
+        "name": "2 star",
+        "count": 8000
+      },
+      {
+        "name": "3 star",
+        "count": 11000
+      },
+      {
+        "name": "4 star",
+        "count": 24000
+      },
+      {
+        "name": "5 star",
+        "count": 82000
+      }
     ]
   },
   {
@@ -418,17 +763,32 @@
     "title": "PayPal",
     "companyName": "PayPal Holdings Inc.",
     "id": 24,
-    "description": "Send and receive money securely worldwide.",
+    "description": "Send, receive, and manage money securely worldwide with PayPal, the trusted digital payment platform. Shop online with peace of mind, knowing your financial information is protected. Easily split bills, request money from friends, and track your transactions. PayPal provides a fast, safe, and convenient way to handle all your digital financial transactions.",
     "size": 90,
     "reviews": 190000,
     "ratingAvg": 4.3,
     "downloads": 600000000,
     "ratings": [
-      { "name": "1 star", "count": 17000 },
-      { "name": "2 star", "count": 20000 },
-      { "name": "3 star", "count": 27000 },
-      { "name": "4 star", "count": 42000 },
-      { "name": "5 star", "count": 84000 }
+      {
+        "name": "1 star",
+        "count": 17000
+      },
+      {
+        "name": "2 star",
+        "count": 20000
+      },
+      {
+        "name": "3 star",
+        "count": 27000
+      },
+      {
+        "name": "4 star",
+        "count": 42000
+      },
+      {
+        "name": "5 star",
+        "count": 84000
+      }
     ]
   },
   {
@@ -436,17 +796,32 @@
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "id": 25,
-    "description": "Join millions of communities and discover content you love.",
+    "description": "Join millions of communities on Reddit, the front page of the internet. Discover and share content, participate in discussions, and find communities (subreddits) for every interest imaginable—from breaking news to niche hobbies. Vote on posts to drive popular content and engage in public discourse. Reddit is where all the world’s conversations happen.",
     "size": 120,
     "reviews": 115000,
     "ratingAvg": 4.4,
     "downloads": 500000000,
     "ratings": [
-      { "name": "1 star", "count": 8000 },
-      { "name": "2 star", "count": 11000 },
-      { "name": "3 star", "count": 18000 },
-      { "name": "4 star", "count": 26000 },
-      { "name": "5 star", "count": 52000 }
+      {
+        "name": "1 star",
+        "count": 8000
+      },
+      {
+        "name": "2 star",
+        "count": 11000
+      },
+      {
+        "name": "3 star",
+        "count": 18000
+      },
+      {
+        "name": "4 star",
+        "count": 26000
+      },
+      {
+        "name": "5 star",
+        "count": 52000
+      }
     ]
   },
   {
@@ -454,17 +829,32 @@
     "title": "Pinterest",
     "companyName": "Pinterest Inc.",
     "id": 26,
-    "description": "Discover and save creative ideas for your projects.",
+    "description": "Discover and save inspiring creative ideas for all your projects and passions with Pinterest. Explore millions of 'Pins' covering everything from recipes and home décor to fashion and travel. Organize your favorite visuals into custom boards for easy reference. Pinterest is your visual discovery engine for finding inspiration and planning your next great idea.",
     "size": 130,
     "reviews": 150000,
     "ratingAvg": 4.6,
     "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 10000 },
-      { "name": "2 star", "count": 14000 },
-      { "name": "3 star", "count": 20000 },
-      { "name": "4 star", "count": 33000 },
-      { "name": "5 star", "count": 73000 }
+      {
+        "name": "1 star",
+        "count": 10000
+      },
+      {
+        "name": "2 star",
+        "count": 14000
+      },
+      {
+        "name": "3 star",
+        "count": 20000
+      },
+      {
+        "name": "4 star",
+        "count": 33000
+      },
+      {
+        "name": "5 star",
+        "count": 73000
+      }
     ]
   },
   {
@@ -472,17 +862,32 @@
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 27,
-    "description": "Navigate and explore the world with real-time directions.",
+    "description": "Navigate and explore the world effortlessly with Google Maps. Get real-time GPS navigation, traffic conditions, and transit information for driving, walking, or cycling. Discover local restaurants, businesses, and attractions with reviews and photos. Google Maps is the world's most comprehensive and accurate mapping tool, ensuring you always find your way.",
     "size": 180,
     "reviews": 900000,
     "ratingAvg": 4.7,
     "downloads": 10000000000,
     "ratings": [
-      { "name": "1 star", "count": 30000 },
-      { "name": "2 star", "count": 35000 },
-      { "name": "3 star", "count": 52000 },
-      { "name": "4 star", "count": 95000 },
-      { "name": "5 star", "count": 688000 }
+      {
+        "name": "1 star",
+        "count": 30000
+      },
+      {
+        "name": "2 star",
+        "count": 35000
+      },
+      {
+        "name": "3 star",
+        "count": 52000
+      },
+      {
+        "name": "4 star",
+        "count": 95000
+      },
+      {
+        "name": "5 star",
+        "count": 688000
+      }
     ]
   },
   {
@@ -490,17 +895,32 @@
     "title": "Adobe Creative Cloud",
     "companyName": "Adobe Inc.",
     "id": 28,
-    "description": "Access Photoshop, Illustrator, and more creative tools.",
+    "description": "Access the essential tools for all your creative projects with Adobe Creative Cloud. This suite includes industry-standard apps like Photoshop, Illustrator, and Premiere Pro. Create stunning graphics, videos, and web content with powerful desktop and mobile applications. It's the ultimate professional platform for designers, photographers, and video editors to bring all their visions to life.",
     "size": 320,
     "reviews": 125000,
     "ratingAvg": 4.2,
     "downloads": 300000000,
     "ratings": [
-      { "name": "1 star", "count": 9000 },
-      { "name": "2 star", "count": 12000 },
-      { "name": "3 star", "count": 25000 },
-      { "name": "4 star", "count": 35000 },
-      { "name": "5 star", "count": 44000 }
+      {
+        "name": "1 star",
+        "count": 9000
+      },
+      {
+        "name": "2 star",
+        "count": 12000
+      },
+      {
+        "name": "3 star",
+        "count": 25000
+      },
+      {
+        "name": "4 star",
+        "count": 35000
+      },
+      {
+        "name": "5 star",
+        "count": 44000
+      }
     ]
   },
   {
@@ -508,17 +928,32 @@
     "title": "Asana",
     "companyName": "Asana Inc.",
     "id": 29,
-    "description": "Project management app for teams and organizations.",
+    "description": "Manage your team’s entire workload, from daily tasks to strategic initiatives, with Asana. This project management app helps teams organize, track, and manage their work seamlessly. Visualize progress with boards, timelines, and calendars, and ensure everyone knows their responsibilities. Asana drives clarity, accountability, and effortless collaboration across organizations of all sizes.",
     "size": 150,
     "reviews": 95000,
     "ratingAvg": 4.5,
     "downloads": 200000000,
     "ratings": [
-      { "name": "1 star", "count": 4000 },
-      { "name": "2 star", "count": 6000 },
-      { "name": "3 star", "count": 12000 },
-      { "name": "4 star", "count": 22000 },
-      { "name": "5 star", "count": 51000 }
+      {
+        "name": "1 star",
+        "count": 4000
+      },
+      {
+        "name": "2 star",
+        "count": 6000
+      },
+      {
+        "name": "3 star",
+        "count": 12000
+      },
+      {
+        "name": "4 star",
+        "count": 22000
+      },
+      {
+        "name": "5 star",
+        "count": 51000
+      }
     ]
   },
   {
@@ -526,17 +961,32 @@
     "title": "ZoomInfo",
     "companyName": "ZoomInfo Technologies",
     "id": 30,
-    "description": "B2B database for sales, marketing, and recruiting intelligence.",
+    "description": "ZoomInfo is the market-leading B2B intelligence platform for sales, marketing, and recruiting teams. Access a comprehensive database of business contacts, company information, and intent data to identify and engage your ideal customers. Streamline your go-to-market efforts and accelerate growth by leveraging accurate, real-time business intelligence.",
     "size": 180,
     "reviews": 48000,
     "ratingAvg": 4.3,
     "downloads": 10000000,
     "ratings": [
-      { "name": "1 star", "count": 2000 },
-      { "name": "2 star", "count": 3000 },
-      { "name": "3 star", "count": 8000 },
-      { "name": "4 star", "count": 14000 },
-      { "name": "5 star", "count": 21000 }
+      {
+        "name": "1 star",
+        "count": 2000
+      },
+      {
+        "name": "2 star",
+        "count": 3000
+      },
+      {
+        "name": "3 star",
+        "count": 8000
+      },
+      {
+        "name": "4 star",
+        "count": 14000
+      },
+      {
+        "name": "5 star",
+        "count": 21000
+      }
     ]
   }
 ]

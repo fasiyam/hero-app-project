@@ -2,21 +2,30 @@ import { Download, Star } from "lucide-react";
 import React from "react";
 import { useLoaderData, useParams } from "react-router";
 import { MessageSquareHeart } from "lucide-react";
-import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
+import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 const AppDetails = () => {
-  const { appId } = useParams();
-  const allAppsData = useLoaderData();
-  // console.log(appId)
-  const filteredApp = allAppsData.filter(
-    (app) => parseInt(app.id) === parseInt(appId)
-  );
+    const { appId } = useParams();
+    const allAppsData = useLoaderData();
+
+    const filteredApp = allAppsData.filter(
+        (app) => parseInt(app.id) === parseInt(appId)
+    );
+
+    const ratingData = filteredApp["0"].ratings
+        ? filteredApp["0"].ratings.map(rating => ({
+            rating: rating.name,
+            count: rating.count,
+        }))
+        .sort((a,b) => b.count - a.count)
+        : [];
+
   console.log(filteredApp);
 
 
   return (
-    <div>
-      <div className="flex items-center justify-start gap-10 w-full">
+    <div className="md:mt-15 mt-10 md:mx-20 mx-2.5 md:mb-20 mb-10">
+      <div className="flex md:flex-row flex-col items-center justify-start gap-10 w-full">
         <div>
           <img
             className="w-[350px] h-[350px]"
@@ -24,7 +33,7 @@ const AppDetails = () => {
             alt=""
           />
         </div>
-        <div className="flex-1">
+        <div className="md:flex-1">
           <div className="mb-8 pb-8 border-b-1 border-gray-400">
             <h2 className="text-4xl font-bold">{filteredApp["0"].title}</h2>
             <p className="text-xl font-semibold">
@@ -34,7 +43,7 @@ const AppDetails = () => {
               </span>
             </p>
           </div>
-          <div className="flex items-center justify-start gap-10 mb-6">
+          <div className="flex items-center justify-start gap-4 md:gap-10 mb-6">
             <div className="space-y-1">
               <Download></Download>
               <p>Downloads</p>
@@ -66,6 +75,26 @@ const AppDetails = () => {
       </div>
 
       {/* Ratings graph */}
+        <ResponsiveContainer width="90%" height={300} className="my-20">
+            <BarChart
+                layout="vertical"
+                data={ratingData}
+                margin={{ top: 20, right: 20, left: 20, bottom: 5 }}
+            >
+                
+                <XAxis type="number" />
+                <YAxis dataKey="rating" type="category" />
+                <Tooltip></Tooltip>
+                <Legend></Legend>
+                <Bar dataKey="count" fill="#ff8811" barSize={25} />
+            </BarChart>
+        </ResponsiveContainer>
+
+
+        {/* Description  */}
+
+        <p className="text-2xl font-semibold text-[#001931] mb-6">Description</p>
+        <p className="text-xl text-[#627382]">{filteredApp["0"].description}</p>
       
     </div>
   );
