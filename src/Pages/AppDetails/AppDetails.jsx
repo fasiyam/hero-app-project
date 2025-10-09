@@ -4,6 +4,9 @@ import { useLoaderData, useParams, useSearchParams } from "react-router";
 import { MessageSquareHeart } from "lucide-react";
 import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { addToLS, getStoredApps } from "../../utility/LocalStorage";
+import downloadImg from "../../assets/icon-downloads.png";
+import starImg from "../../assets/icon-ratings.png";
+import reviewImg from "../../assets/icon-review.png";
 
 const AppDetails = () => {
     const { appId } = useParams();
@@ -60,21 +63,23 @@ const AppDetails = () => {
           </div>
           <div className="flex items-center justify-start gap-4 md:gap-10 mb-6">
             <div className="space-y-1">
-              <Download></Download>
+              {/* <Download></Download> */}
+              <img className="w-[32px]" src={downloadImg} alt="" />
               <p>Downloads</p>
               <h3 className="text-[40px] font-extrabold">
                 {parseInt(parseInt(filteredApp["0"].downloads) / 1000000)}M
               </h3>
             </div>
             <div className="space-y-1">
-              <Star></Star>
+              {/* <Star></Star> */}
+              <img className="w-[32px]" src={starImg} alt="" />
               <p>Average Rating</p>
               <h3 className="text-[40px] font-extrabold">
                 {filteredApp["0"].ratingAvg}
               </h3>
             </div>
             <div className="space-y-1">
-              <MessageSquareHeart />
+              <img className="w-[32px]" src={reviewImg} alt="" />
               <p>Total Reviews</p>
               <h3 className="text-[40px] font-extrabold">
                 {parseInt(parseInt(filteredApp["0"].reviews) / 1000)}K

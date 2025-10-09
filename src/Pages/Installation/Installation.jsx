@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import { useLoaderData } from 'react-router';
 import { getStoredApps } from '../../utility/LocalStorage';
 import { Download, Star } from 'lucide-react';
+import downloadImg from "../../assets/icon-downloads.png";
+import ratingImg from "../../assets/icon-ratings.png";
 
 const Installation = () => {
 
     const allAppsData = useLoaderData();
     const installedApps = getStoredApps();
-    // installedApps.map(app => console.log(app))
     const installedAppsDetails = allAppsData.filter(app => installedApps.includes(app.id) )
+
 
     const [sortedData, setSortedData] = useState(installedAppsDetails);
     
@@ -26,7 +28,6 @@ const Installation = () => {
         setSortedData(data)
     } 
     
-    console.log(sortedData);
     
     return (
         <div className=' mx-10 h-[90dvh]'>
@@ -53,15 +54,15 @@ const Installation = () => {
                         <h2 className='text-xl font-medium mb-4'>{app.title}</h2>
                         <div className='flex items-center justify-start gap-4'>
                             <div className='flex items-center justify-center gap-1.5'>
-                                <Download></Download>
+                                <img className='w-[16px]' src={downloadImg} alt="" />
                                 <span>{parseInt(parseInt(app.downloads)/1000000)}M</span>
                             </div>
                             <div className='flex items-center justify-center gap-1.5'>
-                                <Star color="#FF8811" />
+                                <img className='w-[16px]' src={ratingImg} alt="" />
                                 <span className='text-[#FF8811]'>{app.ratingAvg}</span>
                             </div>
                             <div>
-                                <p>{app.size}</p>
+                                <p>{app.size} MB</p>
                             </div>
                         </div>
                     </div>

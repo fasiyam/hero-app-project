@@ -3,10 +3,13 @@ import { useLoaderData } from "react-router";
 import AppCard from "../../Components/AppCard/AppCard";
 import { Search } from 'lucide-react';
 import AppsNotFound from "../../Components/AppsNotFound/AppsNotFound";
+import LoadingScreen from "../../Components/LoadingScreen/LoadingScreen";
 
 const Apps = () => {
     const [search, setSearch] = useState(''); 
     const allAppsData = useLoaderData();
+    const [loading, setLoading] = useState(false);
+    const [matchedApps, setMatchedApps] = useState(allAppsData);
 
     const matchApps = (apps, search) => {
         if(search.trim().toLowerCase() === ''){
@@ -16,7 +19,25 @@ const Apps = () => {
         return apps.title.toLowerCase().includes(search.trim().toLowerCase());
     }
 
-    const matchedApps = allAppsData.filter(app => matchApps(app, search))
+    const handleSearch = e => {
+        const value = e.target.value; 
+        setSearch(value)
+        setLoading(true)
+
+        
+
+        setTimeout(() => {
+            if (value.trim() === "") {
+                setMatchedApps(allAppsData);
+                setLoading(false);
+                return;
+            }
+
+            const filtered = allAppsData.filter(app => matchApps(app, search));
+            setMatchedApps(filtered);
+            setLoading(false)
+        }, 300)
+    }
   
 
   return (
@@ -32,7 +53,7 @@ const Apps = () => {
           <div className="flex items-center border px-4 border-gray-300 rounded-lg shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:border-indigo-500 transition-all duration-200 bg-white">
             <Search />
             <input
-              onChange={(e) => setSearch(e.target.value)}
+              onChange={handleSearch}
               type="search"
               placeholder="Search apps..."
               className="w-full py-2.5 pl-2 pr-4 text-gray-700 bg-transparent focus:outline-none placeholder-gray-500"
@@ -43,6 +64,7 @@ const Apps = () => {
 
       <div>
         {
+            loading ? <LoadingScreen></LoadingScreen> :
             matchedApps.length === 0 && search.trim() !== 0 ? (
                 <AppsNotFound></AppsNotFound>
             ) : (
