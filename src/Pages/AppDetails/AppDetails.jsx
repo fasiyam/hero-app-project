@@ -1,25 +1,42 @@
 import { Download, Star } from "lucide-react";
-import React from "react";
-import { useLoaderData, useParams } from "react-router";
+import React, { useState } from "react";
+import { useLoaderData, useParams, useSearchParams } from "react-router";
 import { MessageSquareHeart } from "lucide-react";
 import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { addToLS, getStoredApps } from "../../utility/LocalStorage";
 
 const AppDetails = () => {
     const { appId } = useParams();
     const allAppsData = useLoaderData();
-
+    
+    
     const filteredApp = allAppsData.filter(
         (app) => parseInt(app.id) === parseInt(appId)
     );
-
+    
+    const appSize = filteredApp["0"].size
+    
     const ratingData = filteredApp["0"].ratings
-        ? filteredApp["0"].ratings.map(rating => ({
-            rating: rating.name,
-            count: rating.count,
-        }))
-        .sort((a,b) => b.count - a.count)
-        : [];
+    ? filteredApp["0"].ratings.map(rating => ({
+        rating: rating.name,
+        count: rating.count,
+    }))
+    .sort((a,b) => b.count - a.count)
+    : [];
+    
+    const isInstalled = getStoredApps().includes(filteredApp["0"].id);
+    
+    const [btnText, setBtnText] = useState(
+        isInstalled ? "Installed" : `Install Now (${appSize}MB)`
+    )
+    const [disabled, setDisabled] = useState(isInstalled)
 
+    const handleInstallBtn = (id) => {
+        addToLS(id)
+
+        setDisabled(true)
+        setBtnText('Installed')
+    }
 
   return (
     <div className="md:mt-15 mt-10 md:mx-20 mx-2.5 md:mb-20 mb-10">
@@ -65,8 +82,8 @@ const AppDetails = () => {
             </div>
           </div>
           <div>
-            <button className="btn btn-primary bg-[#00d390] border-0 text-xl">
-              Install Now ({filteredApp["0"].size}MB)
+            <button onClick={() => handleInstallBtn(filteredApp["0"].id)} className="btn btn-primary bg-[#00d390] border-0 text-xl" disabled={disabled}>
+              {btnText}
             </button>
           </div>
         </div>

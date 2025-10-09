@@ -1,14 +1,76 @@
-import React from 'react';
-import { useParams } from 'react-router';
+import React, { useState } from 'react';
+import { useLoaderData, useParams } from 'react-router';
+import { getStoredApps } from '../../utility/LocalStorage';
+import { Download, Star } from 'lucide-react';
 
 const Installation = () => {
 
-    const appToInstall = useParams()
-    console.log(appToInstall)
+    const allAppsData = useLoaderData();
+    const installedApps = getStoredApps();
+    // installedApps.map(app => console.log(app))
+    const installedAppsDetails = allAppsData.filter(app => installedApps.includes(app.id) )
 
+    const [sortedData, setSortedData] = useState(installedAppsDetails);
+    
+    const handleSorting = (e) => {
+        const sortValue = e.target.value;
+        
+        const data = [...sortedData];
+
+        if(sortValue === 'low-high') {
+            data.sort((a,b) => parseInt(a.size) - parseInt(b.size))
+        } else if(sortValue === 'high-low') {
+            data.sort((a,b) => parseInt(b.size) - parseInt(a.size))
+        }
+        
+        setSortedData(data)
+    } 
+    
+    console.log(sortedData);
+    
     return (
-        <div>
-            <h1>Installation page</h1>
+        <div className=' mx-10 h-[90dvh]'>
+            <div className='text-center'>
+                <h1 className='text-5xl font-bold text-[#001931] mb-4'>Your Installed Apps</h1>
+                <p className='text-xl text-[#627382] mb-10'>Explore All Trending Apps on the Market developed by us</p>
+                <div className='flex items-center justify-between mb-4'>
+                    <p>{installedApps.length} Apps Found</p>
+                    <select onChange={handleSorting} defaultValue="Sort by size" name="" id="" >
+                        <option value="Sort by size" disabled >Sort by size</option>
+                        <option value="low-high">low-high</option>
+                        <option value="high-low">high-low</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                {
+                    sortedData.map(app => <div key={app.id} className='my-5 p-4 bg-white shadow-xl flex items-center gap-10'>
+                    <div>
+                        <img className='w-[80px]' src={app.image} alt="" />
+                    </div>
+                    <div>
+                        <h2 className='text-xl font-medium mb-4'>{app.title}</h2>
+                        <div className='flex items-center justify-start gap-4'>
+                            <div className='flex items-center justify-center gap-1.5'>
+                                <Download></Download>
+                                <span>{parseInt(parseInt(app.downloads)/1000000)}M</span>
+                            </div>
+                            <div className='flex items-center justify-center gap-1.5'>
+                                <Star color="#FF8811" />
+                                <span className='text-[#FF8811]'>{app.ratingAvg}</span>
+                            </div>
+                            <div>
+                                <p>{app.size}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='ml-auto'>
+                        <button className='btn bg-[#00d390] text-white'>Uninstall</button>
+                    </div>
+                </div>)
+                }
+            </div>
         </div>
     );
 };

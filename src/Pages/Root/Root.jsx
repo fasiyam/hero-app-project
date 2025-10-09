@@ -13,12 +13,6 @@ const Root = () => {
     return (
         <div className='bg-[#f5f5f5] h-full'>
             <Navbar></Navbar>
-            {/* {isLoading && <span className="loading loading-spinner loading-xl"></span> */}
-            }
-            {/* <main style={{ opacity: isLoading ? 0 : 1, transition: 'opacity 0.3s ease-in-out' }}>
-                <Outlet></Outlet>
-            </main> */}
-
             {
                 !isLoading ? <Outlet></Outlet> : <LoadingScreen></LoadingScreen>
             }
