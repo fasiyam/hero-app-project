@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
-import { getStoredApps } from '../../utility/LocalStorage';
-import { Download, Star } from 'lucide-react';
+import { getStoredApps, removeFromLS } from '../../utility/LocalStorage';
 import downloadImg from "../../assets/icon-downloads.png";
 import ratingImg from "../../assets/icon-ratings.png";
 
@@ -27,12 +26,20 @@ const Installation = () => {
         
         setSortedData(data)
     } 
+
+
+    const handleUninstall = id => {
+        removeFromLS(id);
+
+        const remainingApps = sortedData.filter(app => app.id !== id)
+        setSortedData(remainingApps);
+    }
     
     
     return (
         <div className=' mx-10 h-[90dvh]'>
             <div className='text-center'>
-                <h1 className='text-5xl font-bold text-[#001931] mb-4'>Your Installed Apps</h1>
+                <h1 className='text-5xl font-bold text-[#001931] mb-4 mt-10'>Your Installed Apps</h1>
                 <p className='text-xl text-[#627382] mb-10'>Explore All Trending Apps on the Market developed by us</p>
                 <div className='flex items-center justify-between mb-4'>
                     <p>{installedApps.length} Apps Found</p>
@@ -46,12 +53,12 @@ const Installation = () => {
 
             <div>
                 {
-                    sortedData.map(app => <div key={app.id} className='my-5 p-4 bg-white shadow-xl flex items-center gap-10'>
+                    sortedData.map(app => <div key={app.id} className='my-5 p-4 bg-white shadow-xl flex md:flex-row flex-col items-center md:gap-10 gap-4'>
                     <div>
-                        <img className='w-[80px]' src={app.image} alt="" />
+                        <img className='md:w-[80px] md:h-[80px] w-[120px] h-[120px]' src={app.image} alt="" />
                     </div>
                     <div>
-                        <h2 className='text-xl font-medium mb-4'>{app.title}</h2>
+                        <h2 className='text-xl font-medium mb-4 text-center md:text-left'>{app.title}</h2>
                         <div className='flex items-center justify-start gap-4'>
                             <div className='flex items-center justify-center gap-1.5'>
                                 <img className='w-[16px]' src={downloadImg} alt="" />
@@ -66,8 +73,8 @@ const Installation = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='ml-auto'>
-                        <button className='btn bg-[#00d390] text-white'>Uninstall</button>
+                    <div className='md:ml-auto'>
+                        <button onClick={() => handleUninstall(app.id)} className='btn bg-[#00d390] text-white'>Uninstall</button>
                     </div>
                 </div>)
                 }

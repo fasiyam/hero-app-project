@@ -1,7 +1,6 @@
 import { Download, Star } from "lucide-react";
 import React, { useState } from "react";
 import { useLoaderData, useParams, useSearchParams } from "react-router";
-import { MessageSquareHeart } from "lucide-react";
 import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { addToLS, getStoredApps } from "../../utility/LocalStorage";
 import downloadImg from "../../assets/icon-downloads.png";
@@ -46,7 +45,7 @@ const AppDetails = () => {
       <div className="flex md:flex-row flex-col items-center justify-start gap-10 w-full">
         <div>
           <img
-            className="w-[350px] h-[350px]"
+            className="md:w-[350px] md:h-[350px] w-[240px] h-[240px]"
             src={filteredApp["0"].image}
             alt=""
           />
@@ -95,20 +94,24 @@ const AppDetails = () => {
       </div>
 
       {/* Ratings graph */}
-        <ResponsiveContainer width="90%" height={300} className="my-20">
-            <BarChart
-                layout="vertical"
-                data={ratingData}
-                margin={{ top: 20, right: 20, left: 20, bottom: 5 }}
-            >
-                
-                <XAxis type="number" />
-                <YAxis dataKey="rating" type="category" />
-                <Tooltip></Tooltip>
-                <Legend></Legend>
-                <Bar dataKey="count" fill="#ff8811" barSize={25} />
-            </BarChart>
-        </ResponsiveContainer>
+        
+        <div>
+            <p className="md:mt-20 mt-10 md:mx-10 mx-4 text-2xl font-bold">Ratings</p>
+            <ResponsiveContainer width="90%" height={300} className="my-1">
+                <BarChart
+                    layout="vertical"
+                    data={ratingData}
+                    margin={{ top: 10, right: 20, left: 20, bottom: 5 }}
+                >
+            
+                    <XAxis type="number" />
+                    <YAxis dataKey="rating" type="category" />
+                    <Tooltip></Tooltip>
+                    <Legend></Legend>
+                    <Bar dataKey="count" fill="#ff8811" barSize={25} />
+                </BarChart>
+            </ResponsiveContainer>
+        </div>
 
 
         {/* Description  */}

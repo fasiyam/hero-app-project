@@ -15,7 +15,7 @@ const Root = () => {
             <Navbar></Navbar>
             {
                 !isLoading ? <Outlet></Outlet> : <LoadingScreen></LoadingScreen>
-            }
+            } 
 
         </div>
     );

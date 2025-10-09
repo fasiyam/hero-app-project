@@ -22,4 +22,12 @@ const addToLS = (id) => {
 }
 
 
-export {getStoredApps, addToLS};
+const removeFromLS = id => {
+    const sotredData = getStoredApps();
+
+    const remainingApps = sotredData.filter(app => app !== id);
+
+    localStorage.setItem("appsId", JSON.stringify(remainingApps))
+}
+
+export {getStoredApps, addToLS, removeFromLS};
