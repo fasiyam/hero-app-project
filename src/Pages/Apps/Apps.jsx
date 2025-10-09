@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useLoaderData } from "react-router";
 import AppCard from "../../Components/AppCard/AppCard";
 import { Search } from 'lucide-react';
+import AppsNotFound from "../../Components/AppsNotFound/AppsNotFound";
 
 const Apps = () => {
     const [search, setSearch] = useState(''); 
@@ -19,7 +20,7 @@ const Apps = () => {
   
 
   return (
-    <div className="flex flex-col items-center justify-center mx-8 mt-20">
+    <div className="flex flex-col items-center justify-center mx-8 mt-15">
       <h1 className="text-5xl font-bold mb-4 text-center">Our All Applications</h1>
       <p className="text-xl text-[#627382] mb-10">
         Explore All Apps on the Market developed by us. We code for Millions
@@ -40,12 +41,16 @@ const Apps = () => {
 
       </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-6 md:gap-y-8 gap-x-4'>
+      <div>
         {
             matchedApps.length === 0 && search.trim() !== 0 ? (
-                <h1>No match found</h1>
+                <AppsNotFound></AppsNotFound>
             ) : (
-                matchedApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-6 md:gap-y-8 gap-x-4'>
+                   { 
+                        matchedApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
+                   }
+                </div>
             )
         }
       </div>
