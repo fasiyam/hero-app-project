@@ -20,8 +20,6 @@ const AppDetails = () => {
         .sort((a,b) => b.count - a.count)
         : [];
 
-  console.log(filteredApp);
-
 
   return (
     <div className="md:mt-15 mt-10 md:mx-20 mx-2.5 md:mb-20 mb-10">
